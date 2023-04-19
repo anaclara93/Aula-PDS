@@ -1,0 +1,24 @@
+﻿<Window x:Class="AtividadePDS.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AtividadePDS"
+        mc:Ignorable="d"
+        Title="CadastrarQuartos" Height="398" Width="762" Background="Black"
+            WindowStartupLocation="CenterScreen" MinHeight="450" MinWidth="900">
+    <Grid VerticalAlignment="Top" Height="292" Margin="120,79,120,0">
+        <Label Content="MENU" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+
+        <Button x:Name="btCliente" Content="Cadastrar Cliente" Foreground="White" Margin="0,50,0,0"
+             VerticalAlignment="Top" Height="25" Width="105" FontSize="14" Background="Blue" Click="btCliente_Click"/>
+
+        <Button x:Name="btQuarto" Content="Cadastrar Quarto" Foreground="White" Margin="0,100,0,0"
+             VerticalAlignment="Top" Height="25" Width="105" FontSize="14" Background="Blue" Click="btQuarto_Click"/>
+
+
+
+
+    </Grid>
+
+</Window>

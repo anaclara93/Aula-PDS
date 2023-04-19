@@ -1,0 +1,39 @@
+﻿    <Window x:Class="AtividadePDS.CadastroQuartos"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:AtividadePDS"
+            mc:Ignorable="d"
+            Title="CadastrarQuartos" Height="450" Width="800" Background="Black"
+            WindowStartupLocation="CenterScreen" MinHeight="450" MinWidth="900">    <Grid VerticalAlignment="Center">
+            <Label Content="Cadastrar Quartos" FontSize="20" Foreground="White" HorizontalAlignment="Center"/>
+
+            <StackPanel Margin="0,90,0,0" HorizontalAlignment="Center">
+
+                <StackPanel Orientation="Horizontal" Margin="0,10">
+                    <Label Content="Valor das Diárias" FontSize="16" Foreground="White" Width="70"/>
+
+                    <TextBox x:Name="txtDiarias" VerticalAlignment="Top" Width="250"
+                     FontSize="14" Height="25" MaxLength="70" Foreground="Wheat"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"  Margin="0,10">
+                    <Label Content="Tipo" FontSize="16" Foreground="White" Width="70"/>
+
+                    <TextBox x:Name="txtTipo" VerticalAlignment="Top" Width="250"
+                     FontSize="14" Height="25" MaxLength="70" Foreground="Wheat"/>
+
+                </StackPanel>
+
+            </StackPanel>
+
+            <Button x:Name="btSalvar" Content="Salvar" Foreground="White" Margin="0,340,0,0"
+             VerticalAlignment="Top" Height="25" Width="105" FontSize="14" Background="Blue" Click="btSalvar_Click"/>
+
+
+
+
+        </Grid>
+    </Window>

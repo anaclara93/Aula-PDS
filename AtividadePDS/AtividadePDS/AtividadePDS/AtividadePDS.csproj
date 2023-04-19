@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FerramentasBiblioteca">
+      <HintPath>..\..\..\..\..\2-ANO\Máterias do Curso\Linguagem de Programação &amp; PO²\para entregar\FormCadastroArquivo-drive001\FormCadastroArquivo\FormCadastroArquivo\bin\Debug\FerramentasBiblioteca.dll2.dll</HintPath>
+    </Reference>
+    <Reference Include="MeusComponentes">
+      <HintPath>..\..\..\..\..\2-ANO\Máterias do Curso\Linguagem de Programação &amp; PO²\para entregar\FormCadastroArquivo-drive001\FormCadastroArquivo\FormCadastroArquivo\bin\Debug\MeusComponentes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
